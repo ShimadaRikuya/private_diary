@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="" />
+    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -87,6 +89,14 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="507" y="193" key="FileChooserDialogImpl/0.23.1440.816@0.23.1440.816" timestamp="1587153545343" />
+    <state x="583" y="294" key="Github.ShareDialog" timestamp="1587286676394">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="583" y="294" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286676394" />
+    <state x="367" y="102" key="Github.UntrackedFilesDialog" timestamp="1587286694030">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="367" y="102" key="Github.UntrackedFilesDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286694030" />
     <state width="1379" height="161" key="GridCell.Tab.0.bottom" timestamp="1587283531025">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
