@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/diary/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private_diary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
@@ -98,31 +70,12 @@
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
     <state x="253" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587049062006">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="253" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1587049062006" />
     <state x="253" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1587028998058" />
-    <state x="514" y="312" key="#その他のファイル・タイプ" timestamp="1587393854323">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="514" y="312" key="#その他のファイル・タイプ/0.0.1440.900@0.0.1440.900" timestamp="1587393854323" />
-    <state x="568" y="306" width="558" height="219" key="#カスタム・プラグイン・リポジトリー" timestamp="1587363755086">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="568" y="306" width="558" height="219" key="#カスタム・プラグイン・リポジトリー/0.0.1440.900@0.0.1440.900" timestamp="1587363755086" />
     <state x="143" y="445" width="1200" height="582" key="DiffContextDialog" timestamp="1587026106723">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -144,31 +97,27 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="367" y="102" key="Github.UntrackedFilesDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286694030" />
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1587401155035">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1379" height="161" key="GridCell.Tab.0.bottom" timestamp="1587283531025">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587401155035" />
     <state width="1379" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587283531025" />
     <state width="1379" height="248" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1587401155032">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1379" height="161" key="GridCell.Tab.0.center" timestamp="1587283531024">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587401155032" />
     <state width="1379" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1587401155029">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1379" height="161" key="GridCell.Tab.0.left" timestamp="1587283531023">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587401155029" />
     <state width="1379" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587283531023" />
     <state width="1379" height="248" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1587029498561" />
-    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1587401155034">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1379" height="161" key="GridCell.Tab.0.right" timestamp="1587283531024">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587401155034" />
     <state width="1379" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
@@ -188,19 +137,14 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498563" />
-    <state x="243" y="175" key="SettingsEditor" timestamp="1587363913193">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="221" y="70" key="SettingsEditor" timestamp="1587197275032">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="243" y="175" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587363913193" />
     <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1587197275032" />
     <state x="137" y="436" width="1200" height="582" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587026106724">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="137" y="436" width="1200" height="582" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.822@0.23.1440.822" timestamp="1587026106724" />
-    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1587352688060">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1587352688060" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
