@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,10 +170,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498563" />
-    <state x="221" y="52" key="SettingsEditor" timestamp="1587478371878">
+    <state x="221" y="52" key="SettingsEditor" timestamp="1587478608498">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="52" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587478371878" />
+    <state x="221" y="52" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587478608498" />
     <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1587197275032" />
     <state x="137" y="436" width="1200" height="582" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587026106724">
       <screen x="0" y="23" width="1440" height="822" />
