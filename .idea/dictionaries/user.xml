@@ -2,16 +2,10 @@
   <dictionary name="user">
     <words>
       <w>asctime</w>
-      <w>customfixed</w>
-      <w>endblock</w>
       <w>formatters</w>
       <w>levelname</w>
       <w>lineno</w>
-      <w>mystyle</w>
-      <w>navbar</w>
       <w>postgresql</w>
-      <w>praivate</w>
-      <w>toggler</w>
     </words>
   </dictionary>
 </component>
