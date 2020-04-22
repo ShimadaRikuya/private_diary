@@ -6,6 +6,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # ロギング設定
 LOGGING = {
     'version': 1,
