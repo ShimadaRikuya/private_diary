@@ -22,11 +22,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '+d@+w!qz)ab^dn+she_d65!)41d6c41%8ziir=mfk*5v*qi7v('
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -128,42 +123,4 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-
-# ロギング設定
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    # ロガーの設定
-    'loggers': {
-        # Djangoが利用するロガー
-        'django': {
-            'handlers': ['console'],
-            'level': 'INFO',
-        },
-        # diaryアプリケーションが利用するロガー
-        'diary': {
-            'handlers': ['console'],
-            'level': 'DEBUG',
-        },
-    },
-    # ハンドルの設定
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'dev',
-        },
-    },
-    # フォーマッタの設定
-    'formatters': {
-        'dev': {
-            'format': '\t'.join([
-                '%(asctime)s',
-                '[%(levelname)s]',
-                '%(pathname)s(Line:%(lineno)d)',
-                '%(message)s',
-            ])
-        },
-    }
-}
 
