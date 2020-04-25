@@ -24,7 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="" />
+    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_diary/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,9 +60,53 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチ・ファイル" value="IgnoreLang&#10;GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.runserver">
+    <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="private_diary.settings_dev" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate" type="PythonConfigurationType" factoryName="Python">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="private_diary.settings_dev" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
       <module name="private_diary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +129,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.runserver" />
+      <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.migrate" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -106,10 +161,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587545303699">
+    <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587655849956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587545303699" />
+    <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587655849956" />
     <state x="253" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1587049062006" />
     <state x="253" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1587028998058" />
     <state x="420" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587442801775">
@@ -138,31 +193,31 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="367" y="102" key="Github.UntrackedFilesDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286694030" />
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1587561254763">
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1587800278374">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587561254763" />
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587800278374" />
     <state width="1379" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587283531025" />
     <state width="1379" height="248" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1587561254762">
+    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1587800278372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587561254762" />
+    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587800278372" />
     <state width="1379" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1587561254760">
+    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1587800278370">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587561254760" />
+    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587800278370" />
     <state width="1379" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587283531023" />
     <state width="1379" height="248" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1587029498561" />
-    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1587561254763">
+    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1587800278373">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587561254763" />
+    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587800278373" />
     <state width="1379" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
@@ -182,10 +237,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498563" />
-    <state x="221" y="52" key="SettingsEditor" timestamp="1587561021044">
+    <state x="221" y="52" key="SettingsEditor" timestamp="1587655443530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="52" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587561021044" />
+    <state x="221" y="52" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587655443530" />
     <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1587197275032" />
     <state x="137" y="436" width="1200" height="582" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587026106724">
       <screen x="0" y="23" width="1440" height="822" />
