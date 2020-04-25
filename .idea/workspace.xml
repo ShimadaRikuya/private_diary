@@ -24,13 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private_diary/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings_common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private_diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,9 +124,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.runserver" />
       <item itemvalue="Python.makemigrations" />
       <item itemvalue="Python.migrate" />
+      <item itemvalue="Python.runserver" />
     </list>
   </component>
   <component name="SvnConfiguration">
