@@ -24,7 +24,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="" />
+    <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_diary/settings_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_diary/settings_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings_dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,9 +134,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.runserver" />
       <item itemvalue="Python.makemigrations" />
       <item itemvalue="Python.migrate" />
-      <item itemvalue="Python.runserver" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -187,31 +197,31 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="367" y="102" key="Github.UntrackedFilesDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286694030" />
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1587800278374">
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1587832632763">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587800278374" />
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587832632763" />
     <state width="1379" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587283531025" />
     <state width="1379" height="248" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1587800278372">
+    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1587832632762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587800278372" />
+    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587832632762" />
     <state width="1379" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1587800278370">
+    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1587832632761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587800278370" />
+    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587832632761" />
     <state width="1379" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587283531023" />
     <state width="1379" height="248" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1587029498561" />
-    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1587800278373">
+    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1587832632762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587800278373" />
+    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587832632762" />
     <state width="1379" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
     <state width="1379" height="248" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />

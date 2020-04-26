@@ -126,6 +126,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_URL = '/media/'
+
+LOGIN_REDIRECT_URL = 'diary:diary_list'
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
