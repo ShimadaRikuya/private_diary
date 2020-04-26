@@ -1,7 +1,8 @@
 from accounts.models import CustomUser
 from django.db import models
 
-class Dairy(models.Model):
+
+class Diary(models.Model):
     """日記モデル"""
 
     user = models.ForeignKey(CustomUser, verbose_name='ユーザー', on_delete=models.PROTECT)

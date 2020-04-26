@@ -128,7 +128,6 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 
-LOGIN_REDIRECT_URL = 'diary:diary_list'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
@@ -164,7 +163,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 
 # ログイン/ログアウト後の遷移先を設定
-LOGIN_REDIRECT_URL = 'diary:index'
+LOGIN_REDIRECT_URL = 'diary:diary_list'
 ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 
 # ログアウトリンクのクリック一発でログアウトする設定
