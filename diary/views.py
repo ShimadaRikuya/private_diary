@@ -57,7 +57,7 @@ class DiaryCreateView(LoginRequiredMixin, generic.CreateView):
 
     def form_invalid(self, form):
         messages.error(self.request, "日記の作成に失敗しました。")
-        return super().form_valid(form)
+        return super().form_invalid(form)
 
 
 class DiaryUpdateView(LoginRequiredMixin, generic.UpdateView):
