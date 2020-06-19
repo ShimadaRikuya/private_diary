@@ -25,12 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c511664c-e48f-48be-9689-1813ea925182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diary/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/diary_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/diary_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/diary_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/diary_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/diary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -64,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.runserver">
+  <component name="RunManager" selected="Python.test">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
       <module name="private_diary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,11 +131,118 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODELE" value="private_diary.settings_dev" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="test" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for diary.tests.test_views.LoggedInTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;diary.tests.test_views.LoggedInTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for diary.tests.test_views.TestDiaryCreateView.test_create_diary_failure" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;diary.tests.test_views.TestDiaryCreateView.test_create_diary_failure&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for diary.tests.test_views.TestDiaryUpdateView" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;diary.tests.test_views.TestDiaryUpdateView&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_failure" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;diary.tests.test_views.TestDiaryUpdateView.test_update_diary_failure&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="private_diary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;diary.tests.test_views.TestDiaryUpdateView.test_update_diary_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.runserver" />
       <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.migrate" />
+      <item itemvalue="Python.runserver" />
+      <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryCreateView.test_create_diary_failure" />
+      <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView" />
+      <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_success" />
+      <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_failure" />
+      <item itemvalue="Python tests.Unittests for diary.tests.test_views.LoggedInTestCase" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for diary.tests.test_views.LoggedInTestCase" />
+        <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_failure" />
+        <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView.test_update_diary_success" />
+        <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryUpdateView" />
+        <item itemvalue="Python tests.Unittests for diary.tests.test_views.TestDiaryCreateView.test_create_diary_failure" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -163,12 +270,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587655849956">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="253" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592462160941">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="253" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587655849956" />
     <state x="253" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1587049062006" />
-    <state x="253" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1587028998058" />
+    <state x="253" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1592462160941" />
+    <state x="253" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1592459925072" />
     <state x="420" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587442801775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -177,12 +285,13 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="143" y="445" width="1200" height="582" key="DiffContextDialog/0.23.1440.822@0.23.1440.822" timestamp="1587026106723" />
-    <state x="574" y="162" key="EnvironmentVariablesDialog" timestamp="1587545300408">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="574" y="171" key="EnvironmentVariablesDialog" timestamp="1592459899207">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="574" y="162" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587545300408" />
     <state x="574" y="170" key="EnvironmentVariablesDialog/0.23.1440.816@0.23.1440.816" timestamp="1587049019692" />
     <state x="574" y="171" key="EnvironmentVariablesDialog/0.23.1440.822@0.23.1440.822" timestamp="1587027174713" />
+    <state x="574" y="171" key="EnvironmentVariablesDialog/0.23.1440.823@0.23.1440.823" timestamp="1592459899207" />
     <state x="507" y="193" key="FileChooserDialogImpl" timestamp="1587153545343">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -195,34 +304,42 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="367" y="102" key="Github.UntrackedFilesDialog/0.23.1440.821@0.23.1440.821" timestamp="1587286694030" />
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom" timestamp="1588402386678">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="138" key="GridCell.Tab.0.bottom" timestamp="1592553229535">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588402386678" />
+    <state width="1419" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588403599057" />
     <state width="1379" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587283531025" />
-    <state width="1379" height="248" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.center" timestamp="1588402386676">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="138" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1592553229535" />
+    <state width="1419" height="138" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1592460316883" />
+    <state width="1419" height="138" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1590708208392" />
+    <state width="1419" height="138" key="GridCell.Tab.0.center" timestamp="1592553229534">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588402386676" />
+    <state width="1419" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588403599054" />
     <state width="1379" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
-    <state width="1379" height="248" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
-    <state width="1419" height="161" key="GridCell.Tab.0.left" timestamp="1588402386675">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="138" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1592553229534" />
+    <state width="1419" height="138" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1592460316882" />
+    <state width="1419" height="138" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1590708208391" />
+    <state width="1419" height="138" key="GridCell.Tab.0.left" timestamp="1592553229533">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588402386675" />
+    <state width="1419" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588403599053" />
     <state width="1379" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1587189409655" />
     <state width="1379" height="161" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587283531023" />
-    <state width="1379" height="248" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1587029498561" />
-    <state width="1419" height="161" key="GridCell.Tab.0.right" timestamp="1588402386677">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="138" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1592553229533" />
+    <state width="1419" height="138" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1592460316882" />
+    <state width="1419" height="138" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1590708208390" />
+    <state width="1419" height="138" key="GridCell.Tab.0.right" timestamp="1592553229534">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588402386677" />
+    <state width="1419" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588403599056" />
     <state width="1379" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1587189409656" />
     <state width="1379" height="161" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587283531024" />
-    <state width="1379" height="248" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1587029498562" />
+    <state width="1419" height="138" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1592553229534" />
+    <state width="1419" height="138" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1592460316883" />
+    <state width="1419" height="138" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1590708208392" />
     <state width="1379" height="248" key="GridCell.Tab.1.bottom" timestamp="1587029498564">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
