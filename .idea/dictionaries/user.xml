@@ -2,9 +2,12 @@
   <dictionary name="user">
     <words>
       <w>asctime</w>
+      <w>chromedriver</w>
       <w>formatters</w>
+      <w>keizi</w>
       <w>levelname</w>
       <w>lineno</w>
+      <w>maeda</w>
       <w>postgresql</w>
     </words>
   </dictionary>
