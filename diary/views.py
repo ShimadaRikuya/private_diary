@@ -73,7 +73,7 @@ class DiaryUpdateView(LoginRequiredMixin, generic.UpdateView):
         diary.user = self.request.user
         diary.save()
         messages.success(self.request, '日記を更新しました。')
-        return super().form_invalid(form)
+        return super().form_valid(form)
 
     def form_invalid(self, form):
         messages.error(self.request, "日記の更新に失敗しました。")
